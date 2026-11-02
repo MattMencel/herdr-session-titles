@@ -1,0 +1,15 @@
+herdr-session-titles
+Copyright 2026 choam2426
+
+This product includes software derived from Herdr
+(https://github.com/herdrdev/herdr-app), Copyright the Herdr authors,
+licensed under the Apache License, Version 2.0:
+
+- mods/session-titles-agents/main.js is Herdr 0.1.11's shipped `agents` mod,
+  modified to name each agent row after the agent's session.
+- mods/session-titles-pane/main.js and its icons are Herdr 0.1.11's shipped
+  `pane` mod, modified to show the agent's session in the pane header and to
+  shorten Windows home folders to "~".
+
+Both modified files say so at their top. mods/*/session.js (which also holds
+the header's home-folder rule) and tests/ are original to this project.
